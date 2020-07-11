@@ -23,23 +23,12 @@ namespace DZ_3_3
 
             Console.WriteLine("----------------------------------------------");
 
-            //float i = 1;
-            //while (i <= n)
-            //{
-            //    result = result + (1 / i);
-            //}
-            //Console.WriteLine($"Сумма = {result}");
-
-            for (float i = 1; i <= n; i++)
+            for (int i = 1; i <= n; i++)
             {
-                result = result + (1 / i);
-
-                if (i == n)
-                {
-                    Console.WriteLine($"Сумма = {result}");
-                }
-
+                result = result + (1f / i);
             }
+
+            Console.WriteLine($"Сумма = {result}");
 
             Console.ReadLine();
         }
